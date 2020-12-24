@@ -2,6 +2,12 @@ package impl;
 import java.math.BigDecimal;
 import java.util.Map;
 
+/**
+ * InstanceAllocatorResponse is used to populate the repose of the InstanceAllocator Module
+ * 
+ * @author Muthukumar
+ *
+ */
 public class InstanceAllocatorResponse implements Comparable<InstanceAllocatorResponse>{
 	
 	private String region;
