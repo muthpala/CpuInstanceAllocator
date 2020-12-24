@@ -15,8 +15,9 @@ The following repo contains java code for Optimized CPU instance allocation for 
      * Now the divided value(PricePerHour/leastServerTypeCost) will be the possible number of cpus that can be bought for the given price.
      * Keep reducing the possible number of cpus by each server types cpus in the sorted map until they reach a point where the total cost calculated exceeds the given price.
      * If the price is not given, then the same logic should be carried out until the number of cpus become zero.
-     * In both the cases the totalCost, servers and region will be populated. The result list will be sorted by the total cost, hence we will get the best region to purchase the servers
+     * In both the cases the totalCost, servers and region will be populated. 
      * The total cost calculated in the above steps will be totalCost per hour, When hours is given as an input, the totalCost should be multiplied with the given hours to get the totalCost for the given hours
+4. The List of responses will then be sorted by totalCost, hence we will get the best region to purchase the servers at low cost but good servers
 
 
 ## Sample Input
